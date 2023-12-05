@@ -6,6 +6,17 @@ import "./index.css";
 import LandingPage from "./pages/LandingPage.jsx";
 import Login from "./pages/Login.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Schedule from "./components/Schedule.jsx";
+import Mails from "./pages/Mails.jsx";
+import Learning from "./pages/Learning.jsx";
+import Health from "./pages/Health.jsx";
+import Library from "./pages/Library.jsx";
+import Research from "./pages/Research.jsx";
+import DashNavbar from "./components/DashNavbar.jsx";
+import HR from "./pages/HR.jsx";
+import CommunityImpact from "./pages/CommunityImpact.jsx";
+import Academics from "./pages/Academics.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -14,43 +25,50 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <Dashboard />,
+    element: <Mails />,
   },
+  {
+    path: "/home",
+    element: <App />,
+  },
+
   {
     path: "/login",
     element: <Login />,
   },
+  // routes  begin here
   {
     path: "/mails",
-    element: <Login />,
+    element: <Mails />,
   },
   {
     path: "/learning",
-    element: <Login />,
+    element: <Learning />,
   },
   {
     path: "/health",
-    element: <Login />,
+    element: <Health />,
   },
   {
     path: "/library",
-    element: <Login />,
+    element: <Library />,
   },
   {
     path: "/academics",
-    element: <Login />,
+    element: <Academics />,
   },
+ 
   {
     path: "/research",
-    element: <Login />,
+    element: <Research />,
   },
   {
     path: "/humanresource",
-    element: <Login />,
+    element: <HR />,
   },
   {
     path: "/community",
-    element: <Login />,
+    element: <CommunityImpact />,
   },
 ]);
 

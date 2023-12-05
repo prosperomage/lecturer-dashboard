@@ -1,14 +1,20 @@
 
 import './App.css'
+// import { Link } from 'react-router-dom';
 
 function App() {
 
 
   return (
     <>
-      <h1 className='bg-blue-500  text-3xl' >here we go again </h1>
+      
+      <h1>My React App</h1>
+      {/* <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
 
-      <h6 className='bg-amber-500'>we go dey alright </h6>
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} /> */}
+      
     </>
   )
 }

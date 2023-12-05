@@ -1,5 +1,6 @@
 import React from "react";
 import unilaglogo from "../assets/LandinPageImages/Ellipse 1.svg";
+import { Outlet, Link } from "react-router-dom";
 // import Dashboard from "../Dashboard/Dashboard";
 
 const Login = () => {
@@ -22,8 +23,8 @@ const Login = () => {
             <div className="border-b-2 mx-10">
               <input
                 type="text"
-                placeholder="Matric NO / Application No"
-                className="border-b-black my-4  bg-[#830020] "
+                placeholder="Email / Password"
+                className="border-b-black my-4 mr-auto  bg-[#830020] "
               />
             </div>
 
@@ -31,7 +32,6 @@ const Login = () => {
               <input
                 type="text"
                 placeholder="Password"
-                // className="mt-[20px]  bg-[#830020] mx-10 "
                 className=" my-4  bg-[#830020]  
                       "
               />
@@ -40,11 +40,12 @@ const Login = () => {
             <span className="text-white ml-[358px] text-[14px] mt-4 cursor-pointer ">
               Forgot Password
             </span>
-
-            <button className="text-[20px] mt-[30px] p-2 rounded-sm bg-white text-[#830020] w-[260px] mx-auto">
-            <a href={`/dashboard`}>Login</a>
-              
-            </button>
+            <Link to={`/dashboard`}>
+              <button className="text-[20px] mt-[30px] p-2 rounded-sm bg-white text-[#830020] w-[260px] mx-auto">
+                {/* <a href={`/dashboard`}>Login</a> */}
+                Login
+              </button>
+            </Link>
 
             <h4 className="text-white text-[10px] mx-auto mt-4">
               Note: Your default password is your surname in lowercase

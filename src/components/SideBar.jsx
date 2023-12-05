@@ -1,5 +1,6 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import {
   MdAppRegistration,
@@ -15,39 +16,42 @@ import { PiHouseLight } from "react-icons/pi";
 
 const SideBar = () => {
   return (
-    <div className=" hidden md:block bg-[#0055A5] text-white min-h-screen  w-[230px]   ">
+    <div className=" hidden md:block bg-[#0055A5] text-white min-h-screen  w-[230px] text-[20px]   ">
       {/* md:bg-[#0055A5] text-white min-h-screen  flex max-w-[280px] */}
       <div>
         <nav className="mt-8 mx-[10px] p-[10px] ">
           <ul className="hidden lg:flex flex-col space-y-4">
             <li>
               <a
-                href="/mails"
+                href={`/mails`}
                 className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
               >
-                <MdAppRegistration className="w-4 h-4" />
+                <CgWorkAlt className="w-4 h-4" />
 
-                <span className=" text-[20px] ">Mails</span>
+                <span className="text-[20px]">Mails</span>
               </a>
             </li>
             <li>
               <a
-                href="/learning"
+                href={`/learning`}
                 className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
               >
-                <GiGraduateCap />
-                <span className=" text-[20px] ">Learning</span>
+                <CgWorkAlt className="w-4 h-4" />
+
+                <span className="text-[20px]">Learning</span>
               </a>
             </li>
             <li>
               <a
-                href="/health"
+                href={`/health`}
                 className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
               >
-                <MdOutlinePayments className="w-4 h-4" />
+                <CgWorkAlt className="w-4 h-4" />
+
                 <span className="text-[20px]">Health</span>
               </a>
             </li>
+           
             <li>
               <a
                 href="/library"
