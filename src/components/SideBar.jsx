@@ -7,7 +7,10 @@ import {
   MdOutlinePayments,
   MdOutlineHealthAndSafety,
   MdSportsBasketball,
+  MdOutlineLibraryBooks,
 } from "react-icons/md";
+import { RiFilePaperLine } from "react-icons/ri";
+
 // import { LiaEnvelope } from "react-icons/lia";
 import { PiEnvelopeSimpleThin } from "react-icons/pi";
 import { GiGraduateCap } from "react-icons/gi";
@@ -16,93 +19,87 @@ import { PiHouseLight } from "react-icons/pi";
 
 const SideBar = () => {
   return (
-    <div className=" hidden md:block bg-[#0055A5] text-white min-h-screen  w-[230px] text-[20px]   ">
-      {/* md:bg-[#0055A5] text-white min-h-screen  flex max-w-[280px] */}
-      <div>
-        <nav className="mt-8 mx-[10px] p-[10px] ">
-          <ul className="hidden lg:flex flex-col space-y-4">
-            <li>
-              <a
-                href={`/mails`}
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <CgWorkAlt className="w-4 h-4" />
+    <div className=" hidden  md:block bg-[#0055A5] text-white h-screen  w-[240px]   ">
+      <nav className="mt-8  p-[24px]">
+        <ul className="hidden lg:flex flex-col space-y-4">
+          <li>
+            <a
+              href={`/mails`}
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <MdAppRegistration className="w-6 h-6" />
 
-                <span className="text-[20px]">Mails</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href={`/learning`}
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <CgWorkAlt className="w-4 h-4" />
+              <span className="text-[20px]">Mails</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href={`/learning`}
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <MdOutlineLibraryBooks className="w-6 h-6" />
 
-                <span className="text-[20px]">Learning</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href={`/health`}
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <CgWorkAlt className="w-4 h-4" />
+              <span className="text-[20px]">Learning</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href={`/health`}
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <MdOutlineHealthAndSafety className="w-6 h-6" />
 
-                <span className="text-[20px]">Health</span>
-              </a>
-            </li>
-           
-            <li>
-              <a
-                href="/library"
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <PiEnvelopeSimpleThin className="w-4 h-4" />
-                <span className="text-[20px]">Library</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="/academics"
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <MdOutlineHealthAndSafety className="w-4 h-4" />
-                <span className="text-[20px]">Academics</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="/research"
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <CgWorkAlt className="w-4 h-4" />
-                <span className="text-[20px]">Research</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="/humanresource"
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <MdSportsBasketball className="w-4 h-4" />
-                <span className="text-[20px]">Human Resource</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="/community"
-                className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
-              >
-                <PiHouseLight className="w-4 h-4" />
-                <span className="text-[20px]">
-                  Community <br />
-                  Impact
-                </span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+              <span className="text-[20px]">Health</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="/library"
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <MdOutlineLibraryBooks className="w-6 h-6" />
+              <span className="text-[20px]">Library</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/academics"
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <RiFilePaperLine className="w-6 h-6" />
+              <span className="text-[20px]">Academics</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="/research"
+              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+            >
+              <RiFilePaperLine className="w-6 h-6" />
+              <span className="text-[20px]">Research</span>
+            </a>
+          </li>
+          <li className="outline space-x-3">
+            <a
+              href="/humanresource"
+              className="flex items-center   hover:bg-slate-800 rounded-md p-1 "
+            >
+              <MdSportsBasketball className="w-6 h-6" />
+              <span className="text-[20px]">Human Resource</span>
+            </a>
+          </li>
+          <li className="space-x-2 outline">
+            <a
+              href="/community"
+              className="flex items-center  hover:bg-slate-800 rounded-md p-1"
+            >
+              <PiHouseLight className="w-6 h-6" />
+              <span className="text-[20px]">Community Impact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
 
       {/* <div className=" mt-[6px] ml-6 md:hidden mr-4" onClick={handleClick}>
       {!nav ? <FiMenu className="w-5" /> : <FiX className="w-6" />}
