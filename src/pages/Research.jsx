@@ -1,29 +1,63 @@
 import React from "react";
 import DashNavbar from "../components/DashNavbar";
 import SideBar from "../components/SideBar";
-
+import g1 from "../assets/Frame 177.svg";
+import g2 from "../assets/Frame 177 (1).svg";
+import g3 from "../assets/Frame 177 (2).svg";
+import g4 from "../assets/Frame 177 (3).svg";
+import { IoArrowForwardOutline } from "react-icons/io5";
 const Research = () => {
   return (
-    <div className="flex flex-col">
+    <div>
       <DashNavbar />
-      <div className="flex">
-        <div className="flex mx-auto w-[22%]">
+      <div className="flex mt-6">
+        <div>
           <SideBar />
         </div>
-        <div className=" w-[78%]  outline">
-          <div className="h-[8rem] w-[42rem] outline m-auto mt-8 items-center">
+        <div className="ml-6 p-1 w-[800px]">
+          <div className="h-[8rem] w-[48rem] outline  items-center">
             <img src="" alt="" />
             Reserch
           </div>
-          <div className="outline-dotted mt-10 mx-4">
+          <div className=" mt-10 mx-4">
             <div>
-              <span>
+              <span className="font-semibold">
                 We identify solutions to critical global changes by extending
-                the frontiers of <br />
-                knowledge both within and beyond existing research paradigms
+                the frontiers of knowledge both within and beyond existing
+                research paradigms
               </span>
             </div>
-            <div>columns go here</div>
+          </div>
+          {/* grid goes here */}
+          <div className="mt-5 grid grid-cols-2 gap-3">
+            <div className="">
+              <img src={g1} alt="" />
+              <div className="text-[#0055A5] flex p-4">
+                <div className="ml-[60px]">SUBMIT PROPOSAL</div>
+                <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
+              </div>
+            </div>
+            <div className="">
+              <img src={g2} alt="" />
+              <div className="text-[#0055A5] flex p-4 ">
+                <div className="ml-[60px]">SUBMIT CONCEPT NOTE</div>
+                <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
+              </div>
+            </div>
+            <div className="">
+              <img src={g3} alt="" />
+              <div className="text-[#0055A5] flex p-4">
+                <div className="ml-[80px]">GRANT CALLS</div>
+                <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
+              </div>
+            </div>
+            <div className="">
+              <img src={g4} alt="" />
+              <div className="text-[#0055A5] flex p-4">
+                <div className="ml-[60px]">BUDGET OFFERS</div>
+                <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
+              </div>
+            </div>
           </div>
         </div>
       </div>

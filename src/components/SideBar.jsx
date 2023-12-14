@@ -20,7 +20,7 @@ import { PiHouseLight } from "react-icons/pi";
 const SideBar = () => {
   return (
     <div className=" hidden  md:block bg-[#0055A5] text-white h-screen  w-[240px]   ">
-      <nav className="mt-8  p-[24px]">
+      <nav className="mt-6  p-[24px]">
         <ul className="hidden lg:flex flex-col space-y-4">
           <li>
             <a
@@ -80,7 +80,7 @@ const SideBar = () => {
               <span className="text-[20px]">Research</span>
             </a>
           </li>
-          <li className="outline space-x-3">
+          <li className=" space-x-3">
             <a
               href="/humanresource"
               className="flex items-center   hover:bg-slate-800 rounded-md p-1 "
@@ -89,7 +89,7 @@ const SideBar = () => {
               <span className="text-[20px]">Human Resource</span>
             </a>
           </li>
-          <li className="space-x-2 outline">
+          <li className="space-x-2 ">
             <a
               href="/community"
               className="flex items-center  hover:bg-slate-800 rounded-md p-1"

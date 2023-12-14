@@ -18,7 +18,7 @@ const Table = () => {
       name: "Michael Smith",
       details:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      time: "12:00 PM",
+    time: "12:00 PM",
       status: "Rejected",
     },
   ];
@@ -27,15 +27,9 @@ const Table = () => {
       <thead>
         <tr className="bg-[#0055A5] text-white">
           <th className="px-4 py-2 font-bold text-left">Name</th>
-          <th className="px-4 py-2 font-bold text-left">
-            Details
-          </th>
-          <th className="px-4 py-2 font-bold text-center">
-            Time
-          </th>
-          <th className="px-4 py-2 font-bold text-center">
-            Status
-          </th>
+          <th className="px-4 py-2 font-bold text-left">Details</th>
+          <th className="px-4 py-2 font-bold text-center">Time</th>
+          <th className="px-4 py-2 font-bold text-center">Status</th>
         </tr>
       </thead>
       <tbody>

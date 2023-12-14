@@ -26,7 +26,7 @@ const Learning = () => {
               </div>
             </div>
             <div className="">
-              <h1 className="font-bold mr-auto mt-3 mb-3 ">Requests</h1>
+              <h1 className="font-bold  mt-3 mb-3 ml-[-350px] ">Requests</h1>
               <Table />
             </div>
           </section>

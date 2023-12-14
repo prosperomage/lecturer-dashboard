@@ -7,7 +7,6 @@ import Schedule from "../components/Schedule";
 import Carousel from "../components/Carousel";
 
 const Mails = () => {
- 
   return (
     <div>
       <DashNavbar />
@@ -18,7 +17,7 @@ const Mails = () => {
         <div className="flex justify-between mx-4  w-[78%]  ">
           <div className="mt-[35px]  flex flex-col  ">
             <div className=" outline-dashed  ">
-              <Carousel   />
+              <Carousel />
             </div>
 
             <div className="grid outline  grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px]">
