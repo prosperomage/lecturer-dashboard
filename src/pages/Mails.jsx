@@ -6,22 +6,40 @@ import Calender from "../components/Calender";
 import Schedule from "../components/Schedule";
 import Carousel from "../components/Carousel";
 
+import {
+  MdAppRegistration,
+  MdOutlinePayments,
+  MdOutlineHealthAndSafety,
+  MdSportsBasketball,
+  MdOutlineLibraryBooks,
+  MdPayments,
+  MdOutlineWorkHistory,
+} from "react-icons/md";
+import { RiFilePaperLine } from "react-icons/ri";
+
+// import { LiaEnvelope } from "react-icons/lia";
+import { PiEnvelopeSimpleThin } from "react-icons/pi";
+import { GiGraduateCap } from "react-icons/gi";
+import { CgWorkAlt } from "react-icons/cg";
+import { PiHouseLight } from "react-icons/pi";
+
 const Mails = () => {
   return (
     <div>
       <DashNavbar />
       <div className=" flex   ">
-        <div className="hidden md:block  w-[22%]">
+        <div className="hidden md:block ">
           <SideBar />
         </div>
-        <div className="flex justify-between mx-4  w-[78%]  ">
+        <div className="flex justify-between mx-4    ">
           <div className="mt-[35px]  flex flex-col  ">
             <div className=" outline-dashed  ">
               <Carousel />
             </div>
 
-            <div className="grid outline  grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px]">
-              <div className="bg-[#830020] text-white ">
+            {/* grid columns go here */}
+            <div className="grid   grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px]">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
                     <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
@@ -29,89 +47,93 @@ const Mails = () => {
                       Check Gmail and other events
                     </h5>
                   </span>
-                  <span>img</span>
+                  <PiEnvelopeSimpleThin className="w-6 h-6 mt-1" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
-                    <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                    <h1 className="text-[14px]  font-bold w-[120px] ">ACADEMICS</h1>
+                    <h5 className="text-[10px] text-[#DFDFDF] w-[160px] ml-4  font-semibold ">
+                      Faculty, Affliations, SPGs, Profile
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdOutlineLibraryBooks className="w-6 h-6 mt-1" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
-                    <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                    <h1 className="text-[14px] mr-8 font-bold ">
+                      HEALTH AND WELLBEING
+                    </h1>
+                    <h5 className="text-[10px] text-[#DFDFDF] w-[190px] mr-[24px] font-semibold ">
+                      Book an appointment, Check Pharmacy
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdOutlineHealthAndSafety className="w-6 h-6 mt-1" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
-                    <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px]  ">ASK HR</h1>
+                    <h5 className="text-[8px] text-[#DFDFDF] w-[190px]  font-semibold ">
+                      Leave Application, Yearly Appraisal Form, Payments
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdOutlineWorkHistory className="w-6 h-6" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
+                    <h1 className="text-[14px] mr-9 w-[60px] font-bold ">LIBRARY</h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                      Check Repository, Upload Publication
                     </h5>
                   </span>
-                  <span>img</span>
+                  <RiFilePaperLine className="w-6 h-6" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">RESEARCH</h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                      Submit Concept Note, Grant Calls
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdAppRegistration className="w-6 h-6" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">LEARNING</h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                      Go to LMS, Review Schedule
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdPayments className="w-6 h-6" />
                 </div>
               </div>
-              <div className="bg-[#830020] text-white ">
+              <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold ">MY MESSAGES</h1>
-                    <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
-                      Check Gmail and other events
+                    <h1 className="text-[14px] mr-9 font-bold ">
+                      COMMUNITY IMPACT
+                    </h1>
+                    <h5 className="text-[10px] text-[#DFDFDF] w-[90px]  font-semibold ">
+                      SDGs, Volunteer
                     </h5>
                   </span>
-                  <span>img</span>
+                  <MdAppRegistration className="w-6 h-6" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-8 outline outline-indigo-600 min-w-[280px]">
+          <div className="flex flex-col mt-8 ">
             <Calender />
             <Schedule />
           </div>

@@ -5,39 +5,43 @@ import { Outlet, Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="outline bg-gradient-to-r from-yellow-500 from-10% via-slate-200 via-30% to-amber-700 to-90% h-screen ">
-      <div className="   flex flex-col ">
-        <div className="flex ml-[60px] mt-[40px]">
-          <img src={unilaglogo} alt="" />
-          <div className="mt-2  text-[24px]">
+    <div className=" bg-cover   bg-[url('/src/assets/LandinPageImages/UNI-RANK-banner.svg')] h-screen">
+      <div className="flex mx-10 justify-between  ">
+        <div className="flex mt-[40px]">
+          <div>
+            <img src={unilaglogo} alt="logo" />
+          </div>
+
+          <div className="mt-2 ml-1 text-white font-bold leading-tight  text-[21px]">
             <span>University</span> <br />
             <span>Of Lagos</span>
           </div>
         </div>
-        <div className="flex justify-between  ">
-          <div></div>
-          <div className=" bg-[#830020] w-[500px]  mr-[70px] flex flex-col">
-            <h1 className="text-white text-center text-[24px] m-10">
+        <div className="flex justify-between mt-[7.5rem]">
+          <div className=" bg-[#830020] w-[450px] flex flex-col">
+            <h1 className="text-white text-center text-[18px] m-10">
               Login To Your Account
             </h1>
-            <div className="border-b-2 mx-10">
-              <input
-                type="text"
-                placeholder="Email / Password"
-                className="border-b-black my-4 mr-auto  bg-[#830020] "
-              />
-            </div>
+            <div className=" w-[430px]  ">
+              <div className="border-b-2  mx-5">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  className="border-b-black my-4 w-full  bg-[#830020] "
+                />
+              </div>
 
-            <div className="border-b-2 mx-10">
-              <input
-                type="text"
-                placeholder="Password"
-                className=" my-4  bg-[#830020]  
+              <div className="border-b-2  mx-5 ">
+                <input
+                  type="text"
+                  placeholder="Password"
+                  className=" my-4 w-full  bg-[#830020]  
                       "
-              />
+                />
+              </div>
             </div>
 
-            <span className="text-white ml-[358px] text-[14px] mt-4 cursor-pointer ">
+            <span className="text-white w-[160px] ml-auto  text-[14px] mt-4 cursor-pointer ">
               Forgot Password
             </span>
             <Link to={`/dashboard`}>
@@ -47,7 +51,7 @@ const Login = () => {
               </button>
             </Link>
 
-            <h4 className="text-white text-[10px] mx-auto mt-4">
+            <h4 className="text-white text-[8px] w-[240px]  ml-[6.4rem] mt-3 mb-5">
               Note: Your default password is your surname in lowercase
             </h4>
           </div>

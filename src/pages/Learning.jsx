@@ -15,7 +15,7 @@ const Learning = () => {
         <div className="flex space-x-4 ml-7 ">
           <section className="w-[420px] ">
             <div className="rounded-lg w-[300px]">
-              <h2 className="p-4 outline">Go to LMS </h2>
+              <h2 className="p-4 outline">Go to Learning Managemant System </h2>
             </div>
             <div className="bg-[#0055A5] w-[300px] mt-4 ">
               <div className="flex p-3 space-x-[30px] ">

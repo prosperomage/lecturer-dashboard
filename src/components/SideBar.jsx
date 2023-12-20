@@ -8,6 +8,7 @@ import {
   MdOutlineHealthAndSafety,
   MdSportsBasketball,
   MdOutlineLibraryBooks,
+  MdOutlineWorkHistory,
 } from "react-icons/md";
 import { RiFilePaperLine } from "react-icons/ri";
 
@@ -19,83 +20,83 @@ import { PiHouseLight } from "react-icons/pi";
 
 const SideBar = () => {
   return (
-    <div className=" hidden  md:block bg-[#0055A5] text-white h-screen  w-[240px]   ">
+    <div className=" hidden overflow-auto md:block bg-[#0055A5] text-white h-[100%]  w-[230px] ">
       <nav className="mt-6  p-[24px]">
-        <ul className="hidden lg:flex flex-col space-y-4">
+        <ul className="hidden outline outline-blue-400 lg:flex flex-col space-y-3">
           <li>
             <a
               href={`/mails`}
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center  hover:bg-slate-800 rounded-md p-1"
             >
-              <MdAppRegistration className="w-6 h-6" />
+              <MdAppRegistration className="w-6 h-6 " />
 
-              <span className="text-[20px]">Mails</span>
+              <span className="text-[17px] ml-1">Mails</span>
             </a>
           </li>
           <li>
             <a
               href={`/learning`}
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center  hover:bg-slate-800 rounded-md p-1"
             >
               <MdOutlineLibraryBooks className="w-6 h-6" />
 
-              <span className="text-[20px]">Learning</span>
+              <span className="text-[17px] ml-1">Learning</span>
             </a>
           </li>
           <li>
             <a
               href={`/health`}
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center hover:bg-slate-800 rounded-md p-1"
             >
               <MdOutlineHealthAndSafety className="w-6 h-6" />
 
-              <span className="text-[20px]">Health</span>
+              <span className="text-[17px] ml-1">Health</span>
             </a>
           </li>
 
           <li>
             <a
               href="/library"
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center hover:bg-slate-800 rounded-md p-1"
             >
               <MdOutlineLibraryBooks className="w-6 h-6" />
-              <span className="text-[20px]">Library</span>
+              <span className="text-[17px] ml-1">Library</span>
             </a>
           </li>
           <li>
             <a
               href="/academics"
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center hover:bg-slate-800 rounded-md p-1"
             >
               <RiFilePaperLine className="w-6 h-6" />
-              <span className="text-[20px]">Academics</span>
+              <span className="text-[17px] ml-1">Academics</span>
             </a>
           </li>
           <li>
             <a
               href="/research"
-              className="flex items-center space-x-2 hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center hover:bg-slate-800 rounded-md p-1"
             >
               <RiFilePaperLine className="w-6 h-6" />
-              <span className="text-[20px]">Research</span>
+              <span className="text-[17px] ml-1">Research</span>
             </a>
           </li>
-          <li className=" space-x-3">
+          <li >
             <a
               href="/humanresource"
               className="flex items-center   hover:bg-slate-800 rounded-md p-1 "
             >
-              <MdSportsBasketball className="w-6 h-6" />
-              <span className="text-[20px]">Human Resource</span>
+              <MdOutlineWorkHistory className="w-6 h-6" />
+              <span className="text-[17px] ml-1">Human Resource</span>
             </a>
           </li>
-          <li className="space-x-2 ">
+          <li >
             <a
               href="/community"
               className="flex items-center  hover:bg-slate-800 rounded-md p-1"
             >
               <PiHouseLight className="w-6 h-6" />
-              <span className="text-[20px]">Community Impact</span>
+              <span className="text-[17px]">Community Impact</span>
             </a>
           </li>
         </ul>
