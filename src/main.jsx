@@ -18,6 +18,7 @@ import CommunityImpact from "./pages/CommunityImpact.jsx";
 import Academics from "./pages/Academics.jsx";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
