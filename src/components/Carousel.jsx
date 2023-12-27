@@ -4,7 +4,7 @@ const Carousel = () => {
   const images = [
     "/src/assets/Ellipse 1.svg",
     "/src/assets/Facebook - png 0.svg",
-    "/src/assets/Facebook - png 0.svg",
+    "/src/assets/vacancy.png",
     
   ];
 
@@ -13,7 +13,7 @@ const Carousel = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImage((currentImage + 1) % images.length);
-    }, 500); // Change image every 1 second
+    }, 1000); // Change image every 1 second
 
     return () => clearInterval(intervalId);
   }, []);
@@ -21,7 +21,7 @@ const Carousel = () => {
   return (
     <div className="flex flex-col items-center justify-center  ">
       <img
-        className="w-full h-[81px]  rounded-lg shadow-md object-cover"
+        className="w-full h-[15rem]  rounded-lg shadow-md object-cover"
         src={images[currentImage]}
         alt=""
       />

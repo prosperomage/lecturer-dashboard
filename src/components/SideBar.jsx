@@ -22,7 +22,7 @@ const SideBar = () => {
   return (
     <div className=" hidden overflow-auto md:block bg-[#0055A5] text-white h-[100%]  w-[230px] ">
       <nav className="mt-6  p-[24px]">
-        <ul className="hidden outline outline-blue-400 lg:flex flex-col space-y-3">
+        <ul className="hidden lg:flex flex-col space-y-3">
           <li>
             <a
               href={`/mails`}

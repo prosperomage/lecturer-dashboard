@@ -12,10 +12,10 @@ const Academics = () => {
         <SideBar />
         <div className="ml-6 p-4 w-[800px]">
           {/* image goes here */}
-          <div className="outline outline-blue-500 w[200px] h-[150px] ">
-            <span>ACADEMICS</span>
+          <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+            <h2 className="text-white font-bold  w-[30px] mt-auto">ACADEMICS</h2>
           </div>
-          <div className="w-[680px] mt-5">
+          <div className="w-[680px] font-medium  mt-5">
             By working closely across campus, we discover fresh insights through
             joined up thinking to create an environment where learning
             flourishes.
@@ -30,7 +30,7 @@ const Academics = () => {
                   <img src={CI} alt="communityimpact" />
                 </div>
                 <div className="flex flex-col ml-5">
-                  <h1 className="text-[#830020] font-bold text-[40px] ml-[-370px] ">
+                  <h1 className="text-[#830020] font-bold text-[28px] w-[70px] ml-2 ">
                     SDGs
                   </h1>
                   <div className="w-[500px] mt-3">
@@ -51,7 +51,7 @@ const Academics = () => {
                   <img src={CI} alt="communityimpact" />
                 </div>
                 <div className="flex flex-col ml-5">
-                  <h1 className="text-[#830020] font-bold text-[40px] ml-[-250px] ">
+                  <h1 className="text-[#830020] font-bold text-[28px] w-[170px] ml-2 ">
                     MY PROFILE
                   </h1>
                   <div className="w-[500px] mt-3">
