@@ -17,8 +17,9 @@ const HR = () => {
             fostering healthy employee relations and ensuring the overall
             success of the University of Lagos.
           </div>
+
           <div className="mt-4">
-            <div className="ml-[-10px] ">
+            <div className="">
               The Human Resource will help with queries such as:
             </div>
             <div className="flex flex-col mt-3">
