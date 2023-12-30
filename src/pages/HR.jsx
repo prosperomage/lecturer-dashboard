@@ -10,18 +10,16 @@ const HR = () => {
       <div className="flex mt-6">
         <SideBar />
         <div className="ml-6 p-1 w-[800px]">
-          <div className="h-[8rem] w-[48rem] outline  items-center">
-            <img src="" alt="" />
-            human rex=source image
-          </div>
-          <div className="mt-5">
+          <div className="outline outline-blue-500 w-[100%] h-[270px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover "></div>
+          <div className="mt-5 text-left">
             The Human Resource Department is aimed at finding ways to simplify
             processes and share information with staff which is important to
             fostering healthy employee relations and ensuring the overall
             success of the University of Lagos.
           </div>
-          <div className="mt-4">
-            <div className="ml-[-10px] ">
+
+          <div className="mt-4 text-left">
+            <div className="">
               The Human Resource will help with queries such as:
             </div>
             <div className="flex flex-col mt-3">

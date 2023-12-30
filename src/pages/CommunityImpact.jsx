@@ -10,9 +10,10 @@ const CommunityImpact = () => {
       <div className="flex mt-6">
         <SideBar />
         <div className="ml-6 p-1 w-[800px]">
-          <div className="h-[8rem] w-[48rem] outline  items-center">
-            <img src="" alt="" />
-            community impact
+          <div className="outline outline-blue-500 w-[100%] h-[300px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+            <span className="text-white font-bold text-[40px] m-10 w-[200px]">
+              Community Impact
+            </span>
           </div>
           <div className="w-[760px] text-[18px] mt-4 m-auto">
             <span>
