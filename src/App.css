@@ -1,11 +1,11 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0;
-  border: 1px solid saddlebrown;
-  text-align: center;
+  /* border: 1px solid saddlebrown; */
+  /* text-align: center; */
 }
 
 .ld-main {
   background: gray;
-  font-size: .6rem;
+ 
 }

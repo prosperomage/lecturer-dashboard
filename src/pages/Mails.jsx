@@ -27,18 +27,14 @@ const Mails = () => {
   return (
     <div>
       <DashNavbar />
-      <div className=" flex   ">
-        <div className="hidden md:block ">
-          <SideBar />
-        </div>
-        <div className="flex justify-between mx-4    ">
-          <div className="mt-[35px]  flex flex-col  ">
-            <div className=" outline-dashed  ">
-              <Carousel />
-            </div>
-
+      <div className=" flex">
+        <SideBar />
+        {/* content for the middle side goes here */}
+        <div className="flex mt-6 w-[1080px] min-w-[900px] ml-7  ">
+          <div className="m-6 w-[650px] ">
+            <Carousel />
             {/* grid columns go here */}
-            <div className="grid   grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px] ">
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
@@ -53,7 +49,9 @@ const Mails = () => {
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px]  font-bold w-[120px] ">ACADEMICS</h1>
+                    <h1 className="text-[14px]  font-bold w-[120px] ">
+                      ACADEMICS
+                    </h1>
                     <h5 className="text-[10px] text-[#DFDFDF] w-[160px] ml-4  font-semibold ">
                       Faculty, Affliations, SPGs, Profile
                     </h5>
@@ -77,7 +75,9 @@ const Mails = () => {
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold w-[60px]  ">ASK HR</h1>
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px]  ">
+                      ASK HR
+                    </h1>
                     <h5 className="text-[8px] text-[#DFDFDF] w-[190px]  font-semibold ">
                       Leave Application, Yearly Appraisal Form, Payments
                     </h5>
@@ -88,7 +88,9 @@ const Mails = () => {
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 w-[60px] font-bold ">LIBRARY</h1>
+                    <h1 className="text-[14px] mr-9 w-[60px] font-bold ">
+                      LIBRARY
+                    </h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
                       Check Repository, Upload Publication
                     </h5>
@@ -99,7 +101,9 @@ const Mails = () => {
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">RESEARCH</h1>
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">
+                      RESEARCH
+                    </h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
                       Submit Concept Note, Grant Calls
                     </h5>
@@ -110,7 +114,9 @@ const Mails = () => {
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
-                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">LEARNING</h1>
+                    <h1 className="text-[14px] mr-9 font-bold w-[60px] ">
+                      LEARNING
+                    </h1>
                     <h5 className="text-[10px] text-[#DFDFDF] font-semibold ">
                       Go to LMS, Review Schedule
                     </h5>
@@ -133,7 +139,9 @@ const Mails = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col mt-8 ">
+          {/* right side of screen  */}
+
+          <div className="flex flex-col mt-8 w-[330px]">
             <Calender />
             <Schedule />
           </div>

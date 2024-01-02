@@ -1,0 +1,32 @@
+[
+    {
+        "scheduleText": " Meeting with prof akinbulu",
+        "scheduleLocation": "My Office",
+        "sheduleTime": "10:00am"
+    },
+    {
+        "scheduleText": "GEG 521 Lecture ",
+        "scheduleLocation": 30,
+        "sheduleTime": "10:00am"
+    },
+    {
+        "scheduleText": " Launching of VC New Book",
+        "scheduleLocation": "Afe Babalola Hall",
+        "sheduleTime": "10:00am"
+    },
+    {
+        "scheduleText": " Launching  New Labs",
+        "scheduleLocation": "My Office",
+        "sheduleTime": "10:00am"
+    },
+    {
+        "scheduleText": " CHM 414 Lecture ",
+        "scheduleLocation": "LT026",
+        "sheduleTime": "10:00am"
+    },
+    {
+        "scheduleText": " Prof Adams inaugural lecture",
+        "scheduleLocation": "Science Annex",
+        "sheduleTime": "10:00am"
+    }
+]

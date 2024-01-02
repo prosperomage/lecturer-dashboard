@@ -10,14 +10,14 @@ const Learning = () => {
   return (
     <div>
       <DashNavbar />
-      <div className="flex mt-6 ">
+      <div className="flex  ">
         <SideBar />
-
-        <div className="flex space-x-4 ml-7 ">
-          <section className="w-[490px] ">
-            <div className="flex rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')] ">
-          
-              <h2 className="p-4  text-white ">Go to Learning Managemant System </h2>
+        <div className="flex w-[1080px] min-w-[900px] space-x-4 ml-7 mt-6 ">
+          <section className="min-w-[400px]">
+            <div className="flex rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')]">
+              <h2 className="p-4  text-white ">
+                Go to Learning Management System{" "}
+              </h2>
               <FaArrowRight className="text-white mt-5 ml-[7rem]" />
             </div>
             <div className="bg-[#0055A5] w-[430px] mt-4  ">
@@ -33,7 +33,7 @@ const Learning = () => {
               <Table />
             </div>
           </section>
-          <section className="">
+          <section className="min-w-[350px] mr-14">
             <Calender />
             <Schedule />
           </section>

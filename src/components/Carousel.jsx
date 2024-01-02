@@ -19,7 +19,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center  ">
+    <div className="flex flex-col items-center justify-center ">
       <img
         className="w-full h-[15rem]  rounded-lg shadow-md object-cover"
         src={images[currentImage]}

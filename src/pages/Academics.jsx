@@ -10,7 +10,7 @@ const Academics = () => {
       <DashNavbar />
       <div className="flex mt-6">
         <SideBar />
-        <div className="ml-6 p-4 w-[800px]">
+        <div className="ml-6 p-4  w-[1080px]  min-w-[800px]  mx-12">
           {/* image goes here */}
           <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
             <h2 className="text-white font-bold  w-[30px] mt-auto">ACADEMICS</h2>

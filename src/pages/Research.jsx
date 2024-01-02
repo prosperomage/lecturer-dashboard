@@ -11,14 +11,13 @@ const Research = () => {
     <div>
       <DashNavbar />
       <div className="flex mt-6">
-        <div>
-          <SideBar />
-        </div>
+        <SideBar />
+
         <div className="ml-6 p-1 w-[800px]">
-        <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+          <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
             <h2 className="text-white font-bold  w-[30px] mt-auto">Research</h2>
           </div>
-          
+
           <div className=" mt-10 mx-4">
             <div>
               <span className="font-semibold">

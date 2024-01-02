@@ -8,16 +8,16 @@ const Health = () => {
   return (
     <div>
       <DashNavbar />
-      <div className="flex mt-6">
+      <div className="flex">
         <SideBar />
-        <div className=" ml-6 p-4 w-[800px]">
+        <div className=" ml-6 mt-5 p-4 w-[1080px]  min-w-[800px]">
           {/* image goes here outline outline-blue-500 w[200px] h-[150px] bg-cover bg-[url('/src/assets/LandinPageImages/nanotech.jpg')] */}
-          <div className="outline">
+          <div className="">
             <Carousel />
           </div>
           {/* text goes here */}
           <div className="mt-5">
-            <div className="p-6 font-semibold text-[14px]">
+            <div className="p-6 font-semibold text-center text-[14px]">
               <span>
                 Welcome to the campus health service. Your primary health care
                 provider in UNILAG.
@@ -69,7 +69,7 @@ const Health = () => {
           {/* notice */}
           <div className="mt-16">
             <h2 className="ml-[-42rem] font-bold">Please notice</h2>
-            <div className="ml-[-8.8rem] mt-2">
+            <div className=" mt-2">
               Please wear a mask if you have cold or flu symptoms to protect
               those in the waiting room
             </div>

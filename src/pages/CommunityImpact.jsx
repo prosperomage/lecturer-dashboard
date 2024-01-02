@@ -9,7 +9,7 @@ const CommunityImpact = () => {
       <DashNavbar />
       <div className="flex mt-6">
         <SideBar />
-        <div className="ml-6 p-1 w-[800px]">
+        <div className="ml-6 p-1 w-[1080px]  min-w-[800px]">
           <div className="outline outline-blue-500 w-[100%] h-[300px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
             <span className="text-white font-bold text-[40px] m-10 w-[200px]">
               Community Impact
@@ -26,7 +26,7 @@ const CommunityImpact = () => {
               <img src={CI} alt="communityimpact" />
             </div>
             <div className="flex flex-col ml-5">
-              <h1 className="text-[#830020] font-bold text-[40px] ml-[-370px] ">
+              <h1 className="text-[#830020] font-bold text-[40px]  ">
                 SDGs
               </h1>
               <div className="w-[500px] mt-7">

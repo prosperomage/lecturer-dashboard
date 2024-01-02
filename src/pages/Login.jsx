@@ -19,7 +19,7 @@ const Login = () => {
         </div>
         <div className="flex justify-between mt-[7.5rem]">
           <div className=" bg-[#830020] w-[450px] flex flex-col">
-            <h1 className="text-white text-center text-[18px] m-10">
+            <h1 className="text-white text-center  text-[18px] m-10">
               Login To Your Account
             </h1>
             <div className=" w-[430px]  ">
@@ -45,7 +45,7 @@ const Login = () => {
               Forgot Password
             </span>
             <Link to={`/dashboard`}>
-              <button className="text-[20px] mt-[30px] p-2 rounded-sm bg-white text-[#830020] w-[260px] mx-auto">
+              <button className="text-[20px] mt-[30px] p-2 rounded-sm bg-white text-[#830020]  w-[260px] ml-20">
                 {/* <a href={`/dashboard`}>Login</a> */}
                 Login
               </button>

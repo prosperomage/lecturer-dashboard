@@ -20,9 +20,9 @@ import { PiHouseLight } from "react-icons/pi";
 
 const SideBar = () => {
   return (
-    <div className=" hidden overflow-auto md:block bg-[#0055A5] text-white h-[100%]  w-[230px] ">
+    <div className=" hidden overflow-auto md:block bg-[#0055A5] text-white mt-6  w-[230px]  min-h-[510px]">
       <nav className="mt-6  p-[24px]">
-        <ul className="hidden lg:flex flex-col space-y-3">
+        <ul className="hidden lg:flex flex-col space-y-5">
           <li>
             <a
               href={`/mails`}
@@ -81,7 +81,7 @@ const SideBar = () => {
               <span className="text-[17px] ml-1">Research</span>
             </a>
           </li>
-          <li >
+          <li>
             <a
               href="/humanresource"
               className="flex items-center   hover:bg-slate-800 rounded-md p-1 "
@@ -90,7 +90,7 @@ const SideBar = () => {
               <span className="text-[17px] ml-1">Human Resource</span>
             </a>
           </li>
-          <li >
+          <li>
             <a
               href="/community"
               className="flex items-center  hover:bg-slate-800 rounded-md p-1"

@@ -6,14 +6,15 @@ import unilagsearch from "../assets/LandinPageImages/material-symbols_search-rou
 const DashNavbar = () => {
   return (
     <div className="  bg-slate-300   py-[10px]">
-      <div className=" flex mx-[3rem] space-x-[12rem] ">
+      <div className=" flex mx-[57px] justify-between  ">
+        {/* school logo */}
         <div className="flex ">
           <img src={NewUnilagLogo} alt="" className="w-[70px] h-[70px] mt-2 " />
           <div className="text-[18px] mt-4 w-[100px] mb-4 md:font-black">
             <span>University Of Lagos</span>
           </div>
         </div>
-
+        {/* search bar */}
         <div>
           <div className="flex items-center mt-4">
             <AiOutlineSearch className="  w-6 h-6 " />

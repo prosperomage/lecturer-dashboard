@@ -12,7 +12,7 @@ const Library = () => {
       <DashNavbar />
       <div className="flex mt-6">
         <SideBar />
-        <div className=" ml-6 p-4 w-[800px]">
+        <div className=" ml-6 p-4  w-[1080px]  min-w-[800px]">
           {/* image goes here */}
           <div className="outline outline-blue-500 w[200px] h-[150px] ">
             <span>image goes here</span>
