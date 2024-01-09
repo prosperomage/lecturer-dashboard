@@ -4,7 +4,8 @@ const Carousel = () => {
   const images = [
     "/src/assets/Ellipse 1.svg",
     "/src/assets/Facebook - png 0.svg",
-    "/src/assets/vacancy.png",
+    "/src/assets/Facebook - png 0.svg",
+    
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -16,9 +17,9 @@ const Carousel = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImageIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 1000);
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  }, 1000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -26,7 +27,7 @@ const Carousel = () => {
   return (
     <div className="max-w-screen-xl mx-auto relative overflow-hidden outline outline-red-500">
       <img
-        src={images[currentImageIndex]}
+         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
         className="w-full h-[15rem] "
       />

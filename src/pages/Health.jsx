@@ -17,7 +17,7 @@ const Health = () => {
           </div>
           {/* text goes here */}
           <div className="mt-5">
-            <div className="p-6 font-semibold text-center text-[14px]">
+          <div className="p-6 font-semibold text-center text-[14px]">
               <span>
                 Welcome to the campus health service. Your primary health care
                 provider in UNILAG.

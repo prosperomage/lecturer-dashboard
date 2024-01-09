@@ -21,7 +21,29 @@ const Academics = () => {
             flourishes.
           </div>
 
-          <div className="outline">carousel of points</div>
+          <div className="outline">
+            <h1 className="text-[#830020] font-bold text-[28px] ml-2 ">
+              Faculties and Departments
+            </h1>
+
+            Every faculty is equppied with providing the full range of creative rigor, offering students the opportunity to explore, discover and reaalise their full potentials in their chosen career
+            <div>
+              <div className=" outline flex flex-col ml-5">
+                    <h1 className="text-[#830020] font-bold text-[28px] ml-2 ">
+                      FACULTY OF ENGINEERING
+                    </h1>
+                    <div className="w-[500px] mt-3">
+                      THe faculty of engineering encompasses transformational reserach and teaching areas as diveverse as computer/civil/systems/biomedical/chemical/electrical/mechanical engineering
+                    </div>
+                    <div className="mt-4 ml-[1rem]">
+                      <div className="flex text-[#0055A5] cursor-pointer">
+                        <div className="font-bold">FIND OUT MORE</div>
+                        <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5  " />
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
 
           <div>
             <div>

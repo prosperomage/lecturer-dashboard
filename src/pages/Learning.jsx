@@ -12,6 +12,7 @@ const Learning = () => {
       <DashNavbar />
       <div className="flex  ">
         <SideBar />
+
         <div className="flex w-[1080px] min-w-[900px] space-x-4 ml-7 mt-6 ">
           <section className="min-w-[400px]">
             <div className="flex rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')]">
