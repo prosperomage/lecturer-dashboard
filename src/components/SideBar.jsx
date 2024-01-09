@@ -26,7 +26,7 @@ const SideBar = () => {
           <li>
             <a
               href={`/mails`}
-              className="flex items-center  hover:bg-slate-800 rounded-md p-1"
+              className="flex items-center  hover:bg-[#0055a57a]  rounded-md p-1"
             >
               <MdAppRegistration className="w-6 h-6 " />
 

@@ -5,35 +5,40 @@ const Carousel = () => {
     "/src/assets/Ellipse 1.svg",
     "/src/assets/Facebook - png 0.svg",
     "/src/assets/vacancy.png",
-    
   ];
 
-  const [currentImage, setCurrentImage] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const handleButtonClick = (index) => {
+    setCurrentImageIndex(index);
+  };
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentImage((currentImage + 1) % images.length);
-    }, 1000); // Change image every 1 second
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 1000);
 
     return () => clearInterval(intervalId);
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center ">
+    <div className="max-w-screen-xl mx-auto relative overflow-hidden outline outline-red-500">
       <img
-        className="w-full h-[15rem]  rounded-lg shadow-md object-cover"
-        src={images[currentImage]}
-        alt=""
+        src={images[currentImageIndex]}
+        alt={`Image ${currentImageIndex + 1}`}
+        className="w-full h-[15rem] "
       />
-      <div className="flex justify-center mt-4">
-        {images.map((image, index) => (
+      <div className="absolute bottom-4 left-1/2 mt-3 transform -translate-x-1/2 flex space-x-2">
+        {images.map((_, index) => (
           <button
             key={index}
-            className={`w-4 h-4 mx-2 rounded-full bg-gray-200 ${
-              index === currentImage ? "bg-gray-700" : ""
+            className={`w-4 h-4 rounded-full focus:outline-none ${
+              currentImageIndex === index ? "bg-blue-500" : "bg-gray-300"
             }`}
-            onClick={() => setCurrentImage(index)}
-          />
+            onClick={() => handleButtonClick(index)}
+          ></button>
         ))}
       </div>
     </div>

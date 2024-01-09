@@ -6,7 +6,7 @@ const Hero = () => {
     <div >
       
       <div>
-        <img src={unirankbanner} alt="unirank banner" className="outline" />
+        <img src={unirankbanner} alt="unirank banner" className="w-full" />
       </div>
     </div>
   );
