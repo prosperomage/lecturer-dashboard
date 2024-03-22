@@ -12,12 +12,12 @@ const Library = () => {
       <DashNavbar />
       <div className="flex mt-6">
         <SideBar />
-        <div className=" ml-6 p-4  w-[1080px]  min-w-[800px]">
+        <div className=" w-full lg:ml-6 p-1">
           {/* image goes here */}
           <div className="outline outline-blue-500 w[200px] h-[150px] ">
             <span>image goes here</span>
           </div>
-          <div className="mt-6 grid grid-cols-2 text-white  gap-6">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 text-white  gap-6">
             <div className="outline  bg-[#DA4167] p-4 ">
               <h2 className="text-[24px]">Opening Hours</h2>
               <GrAlarm className="w-20 h-20 m-auto mt-10" />
@@ -29,7 +29,7 @@ const Library = () => {
               <img src={books} alt="books" className="mt-6 m-auto" />
               <div>
                 <div className="mt-6 mx-7 flex justify-between">
-                  <div > VISIT THE LIBRARY WEBSITE</div>
+                  <div> VISIT THE LIBRARY WEBSITE</div>
 
                   <img src={point} alt="" />
                 </div>

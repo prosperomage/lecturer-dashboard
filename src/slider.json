@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "sliderHeader": "File 1 Header",
+        "sliderContent": "File 1 Content",
+        "sliderButton": "Button 1"
+    },
+    {
+        "id": 2,
+        "sliderHeader": "File 2 Header",
+        "sliderContent": "File 2 Content",
+        "sliderButton": "Button 2"
+    },
+    {
+        "id": 3,
+        "sliderHeader": "File 3 Header",
+        "sliderContent": "File 3 Content",
+        "sliderButton": "Button 3"
+    }
+]

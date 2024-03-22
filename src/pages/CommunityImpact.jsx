@@ -9,27 +9,26 @@ const CommunityImpact = () => {
       <DashNavbar />
       <div className="flex mt-6">
         <SideBar />
-        <div className="ml-6 p-1 w-[1080px]  min-w-[800px]">
-          <div className="outline mt-6 outline-blue-500 w-[100%] h-[300px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
-            <span className="text-white font-bold text-[40px] m-10 w-[200px]">
+        <div className="w-full lg:ml-6 p-1">
+          <div className=" mt-6   h-[300px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+            <span className="text-white font-bold text-[40px] m-10 max-w[200px]">
               Community Impact
             </span>
           </div>
-          <div className="w-[760px] text-[18px] mt-4 m-auto">
+          <div className="lg:w-[760px] text-[18px] mt-4 m-auto">
             <span>
               We are committed to preserving the community and leaving a legacy
               for future generations{" "}
             </span>
           </div>
-          <div className="flex mt-5">
+          <div className="md:flex mt-5">
             <div>
               <img src={CI} alt="communityimpact" />
             </div>
             <div className="flex flex-col ml-5">
-              <h1 className="text-[#830020] font-bold text-[40px]  ">
-                SDGs
-              </h1>
-              <div className="w-[500px] mt-7">
+              {" "}
+              <h1 className="text-[#830020] font-bold text-[40px]  ">SDGs</h1>
+              <div className="lg:w-[500px] mt-7">
                 Join the United Nations to reform the world, eradicate poverty,
                 and protect the planet to ensure everyone enjoy peace and
                 prosperity.

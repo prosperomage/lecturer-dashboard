@@ -13,7 +13,7 @@ const Research = () => {
       <div className="flex mt-6">
         <SideBar />
 
-        <div className="ml-6 p-1 w-[800px]">
+        <div className=" w-full lg:ml-6 p-1 ">
         <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
             <h2 className="text-white font-bold  w-[30px] mt-auto">Research</h2>
           </div>

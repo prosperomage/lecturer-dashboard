@@ -13,7 +13,7 @@ const Learning = () => {
       <div className="flex  ">
         <SideBar />
 
-        <div className="flex w-[1080px] min-w-[900px] space-x-4 ml-7 mt-6 ">
+        <div className="w-full lg:ml-6 p-1">
           <section className="min-w-[400px]">
             <div className="flex rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')]">
               <h2 className="p-4  text-white ">
@@ -34,7 +34,7 @@ const Learning = () => {
               <Table />
             </div>
           </section>
-          <section className="min-w-[350px] mr-14">
+          <section className=" md:min-w-[350px] mr-14">
             <Calender />
             <Schedule />
           </section>

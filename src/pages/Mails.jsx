@@ -30,11 +30,11 @@ const Mails = () => {
       <div className=" flex">
         <SideBar />
         {/* content for the middle side goes here */}
-        <div className="flex mt-6 w-[1080px] min-w-[900px] ml-7  ">
-          <div className="m-6 w-[650px] ">
+        <div className="w-full lg:mt-6  ml-6 p-1 ">
+          <div className=" lg:min-w-[700px] ">
             <Carousel />
             {/* grid columns go here */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] min-w-[470px] ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] lg:min-w-[470px] ">
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
                   <span>
@@ -140,11 +140,10 @@ const Mails = () => {
             </div>
           </div>
           {/* right side of screen  */}
-
-          <div className="flex flex-col mt-8 w-[330px]">
-            <Calender />
-            <Schedule />
-          </div>
+        </div>
+        <div className=" outline md:flex mt-8 w-[330px]">
+          <Calender />
+          <Schedule />
         </div>
       </div>
     </div>
