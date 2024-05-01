@@ -12,7 +12,7 @@ const LandingPage = () => {
       <Navbar />
       <SubNav />
       <Hero />
-      <div className="md:mx-[50px] ">
+      <div className="lg:mx-[50px] ">
         <LatestNews />
         <AboutUs />
         <Footer />

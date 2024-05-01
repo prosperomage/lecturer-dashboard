@@ -14,7 +14,7 @@ const Research = () => {
         <SideBar />
 
         <div className=" w-full lg:ml-6 p-1 ">
-        <div className="outline outline-blue-500 w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+        <div className=" w-[100%] h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
             <h2 className="text-white font-bold  w-[30px] mt-auto">Research</h2>
           </div>
           <div className=" mt-10 mx-4">
@@ -28,28 +28,28 @@ const Research = () => {
           </div>
           {/* grid goes here */}
           <div className="mt-14 grid grid-cols-2 gap-y-12 gap-x-4">
-            <div className="outline outline-blue-500">
+            <div className=" outline outline-blue-500 rounded-lg">
               <img src={g1} alt="" />
               <div className="text-[#0055A5] flex p-4">
                 <div className="ml-[60px]">SUBMIT PROPOSAL</div>
                 <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
               </div>
             </div>
-            <div className="outline outline-blue-500">
+            <div className="outline outline-blue-500 rounded-lg">
               <img src={g2} alt="" />
               <div className="text-[#0055A5] flex p-4 ">
                 <div className="ml-[60px]">SUBMIT CONCEPT NOTE</div>
                 <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
               </div>
             </div>
-            <div className="outline outline-blue-500">
+            <div className="outline outline-blue-500 rounded-lg">
               <img src={g3} alt="" />
               <div className="text-[#0055A5] flex p-4">
                 <div className="ml-[80px]">GRANT CALLS</div>
                 <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5 cursor-pointer " />
               </div>
             </div>
-            <div className="outline outline-blue-500">
+            <div className="outline outline-blue-500 rounded-lg">
               <img src={g4} alt="" />
               <div className="text-[#0055A5] flex p-4">
                 <div className="ml-[60px]">BUDGET OFFERS</div>

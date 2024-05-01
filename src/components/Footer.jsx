@@ -4,7 +4,7 @@ import fblink from '../assets/LandinPageImages/Facebook - png 0.svg'
 
 const Footer = () => {
   return (
-    <div className="  bg-[#830020] text-[#949396] min-h-[200px] ">
+    <div className="  bg-[#830020]  text-[#949396] min-h-[200px] ">
       <div className="m-10 flex justify-evenly">
         {/* first column */}
         <div >

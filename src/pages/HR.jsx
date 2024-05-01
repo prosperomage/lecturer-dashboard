@@ -12,6 +12,7 @@ const HR = () => {
         <div className="ml-6 p-1 w-[1000px]">
           <div className=" w-[100%] h-[270px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover "></div>
           <div className="mt-5">
+          <span className="text-[30px] font-bold">Human resource management directorate</span> <br />
             The Human Resource Department is aimed at finding ways to simplify
             processes and share information with staff which is important to
             fostering healthy employee relations and ensuring the overall

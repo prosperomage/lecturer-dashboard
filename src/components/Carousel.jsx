@@ -25,7 +25,8 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto relative overflow-hidden outline outline-red-500">
+    <div className="max-w-screen-xl mx-auto relative overflow-hidden ">
+    
       <img
          src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}

@@ -3,7 +3,7 @@ import React from "react";
 const SubNav = () => {
   return (
     <div>
-      <div className="hidden text-[14px] text-[#DFDFDF] bg-[#830020] md:block p-4">
+      <div className="text-[14px] text-[#DFDFDF] bg-[#830020] md:block p-4">
         <div className="  max-w-[30rem]  ">
           <span className="">About Us</span>
           <span className="ml-2">Admissions</span>

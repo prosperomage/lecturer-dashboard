@@ -68,14 +68,14 @@ const DashNavbar = () => {
     //     </div>
     //   </div>
     // </div>
-    <nav className="bg-gray-800 p-4">
-      <div className="flex items-center justify-between">
+    <nav className="bg-[#830020]  p-4">
+      <div className="flex  mx-6 items-center justify-between">
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="/logo.png"
+            src={NewUnilagLogo}
             alt="Logo"
-            className="h-8"
+            className="h-15"
             onClick={toggleDropdown}
           />
         </div>
@@ -172,21 +172,25 @@ const DashNavbar = () => {
           </ul>
         </div>
         {/* Search Bar */}
-        <div className="flex-1 px-4">
+        <div className=" px-4  w-[700px] ">
           <input
             type="text"
             placeholder="Search..."
-            className="w-40 md:w-3/5 py-1 px-2 rounded-md bg-gray-700 text-white focus:outline-none focus:ring focus:ring-blue-400"
+            className=" placeholder-black  md:w-3/5 py-1 px-2 rounded-md bg-white text-white focus:outline-none focus:ring focus:ring-blue-400"
           />
         </div>
         {/* User Info */}
         <div className="flex items-center space-x-2">
           <img
-            src="/profile-pic.jpg"
+            src={unilagstudent}
             alt="Profile"
-            className="h-8 w-8 rounded-full"
+            className="h-10 w-10 rounded-full cursor-ponter "
           />
-          <span className="text-white">John Doe</span>
+          <div className="flex flex-col">
+          <span className="text-white text-[12px]">John Doe</span>
+          <span className="text-white text-[12px]">Computer Science</span>
+          </div>
+     
         </div>
       </div>
     </nav>

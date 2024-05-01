@@ -29,11 +29,9 @@ const Mails = () => {
       <DashNavbar />
       <div className=" flex">
         <SideBar />
-        {/* content for the middle side goes here */}
-        <div className="w-full lg:mt-6  ml-6 p-1 ">
-          <div className=" lg:min-w-[700px] ">
+        <div className="justify-evenly w-full lg:flex">
+          <div className="lg:min-w-[700px] ">
             <Carousel />
-            {/* grid columns go here */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-1 gap-y-4 mx-auto mt-[10px] lg:min-w-[470px] ">
               <div className="bg-[#830020] text-white cursor-pointer ">
                 <div className="flex justify-between mx-3 my-2">
@@ -139,11 +137,10 @@ const Mails = () => {
               </div>
             </div>
           </div>
-          {/* right side of screen  */}
-        </div>
-        <div className=" outline md:flex mt-8 w-[330px]">
-          <Calender />
-          <Schedule />
+          <div className="mt-8 ">
+            <Calender />
+            <Schedule />
+          </div>
         </div>
       </div>
     </div>

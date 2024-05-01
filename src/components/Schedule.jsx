@@ -4,7 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 const Schedule = () => {
   return (
     <div className="mt-8 m-2 ">
-      <h2 className=" ml-3 font-[20px]  w-[67px] ">Schedule</h2>
+      <h2 className=" ml-3 font-[20px] w-[67px] ">Schedule</h2>
       <div className=" ml-4  h-[300px]  flex justify-evenly flex-col">
         <div className="bg-[#DFDFDF] h-[45px]  rounded-md ">
           <div>

@@ -5,24 +5,26 @@ import { Outlet, Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className=" bg-cover   bg-[url('/src/assets/LandinPageImages/UNI-RANK-banner.svg')] h-screen">
-      <div className="flex mx-10 justify-between  ">
-        <div className="flex mt-[40px]">
+    //  bg-cover   bg-[url('/src/assets/LandinPageImages/UNI-RANK-banner.svg')]
+    <div className="bg-cover bg-[url('/src/assets/LandinPageImages/UNI-RANK-banner.svg')] min-h-screen  bg-center bg-no-repeat">
+      <div className="flex justify-between   mx-10  ">
+        {/* logo */}
+        <div className=" w-[500px] flex">
           <div>
             <img src={unilaglogo} alt="logo" />
           </div>
-
           <div className="mt-2 ml-1 text-white font-bold leading-tight  text-[21px]">
             <span>University</span> <br />
             <span>Of Lagos</span>
           </div>
         </div>
-        <div className="flex justify-between mt-[7.5rem]">
-          <div className=" bg-[#830020] w-[450px] flex flex-col">
+        {/* login */}
+        <div className=" w-[500px] mt-[50px]  text-white">
+          <div className=" bg-[#830020] min-w-[60%] flex flex-col">
             <h1 className="text-white text-center  text-[18px] m-10">
               Login To Your Account
             </h1>
-            <div className=" w-[430px]  ">
+            <div className=" ">
               <div className="border-b-2  mx-5">
                 <input
                   type="text"

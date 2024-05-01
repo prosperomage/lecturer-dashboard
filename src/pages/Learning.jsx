@@ -13,9 +13,9 @@ const Learning = () => {
       <div className="flex  ">
         <SideBar />
 
-        <div className="w-full lg:ml-6 p-1">
+        <div className="   m-7 w-full lg:ml-6 p-1">
           <section className="min-w-[400px]">
-            <div className="flex rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')]">
+            <div className="flex cursor-pointer rounded-lg w-[430px] bg-cover bg-[url('/src/assets/pexels-eline-spee-19288075.jpg')]">
               <h2 className="p-4  text-white ">
                 Go to Learning Management System{" "}
               </h2>
@@ -34,10 +34,10 @@ const Learning = () => {
               <Table />
             </div>
           </section>
-          <section className=" md:min-w-[350px] mr-14">
+          {/* <section className=" md:min-w-[350px] mr-14">
             <Calender />
             <Schedule />
-          </section>
+          </section> */}
         </div>
       </div>
     </div>

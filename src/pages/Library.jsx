@@ -2,6 +2,7 @@ import React from "react";
 import { GrAlarm } from "react-icons/gr";
 import books from "../assets/Frame 185.svg";
 import point from "../assets/mdi_hand-pointing-right.svg";
+import libraree from "../assets/emil-widlund-xrbbXIXAWY0-unsplash.jpg";
 
 import DashNavbar from "../components/DashNavbar";
 import SideBar from "../components/SideBar";
@@ -14,8 +15,15 @@ const Library = () => {
         <SideBar />
         <div className=" w-full lg:ml-6 p-1">
           {/* image goes here */}
-          <div className="outline outline-blue-500 w[200px] h-[150px] ">
+          {/* <div className="outline outline-blue-500 w[200px] h-[150px] ">
             <span>image goes here</span>
+          </div> */}
+          <div className=" w[200px] h-[150px] object-contain bg-gray-200 relative">
+            <img
+              src={libraree} // Replace "your-image-url.jpg" with the URL of your downloaded image
+              alt="Your Image"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 text-white  gap-6">
             <div className="outline  bg-[#DA4167] p-4 ">

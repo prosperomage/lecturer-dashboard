@@ -10,7 +10,9 @@ const LatestNews = () => {
       <div className="">
         <div className="my-[10px]">
           <h1 className="font-bold text-[28px]">Latest News</h1>
-          <div className=" grid gris-cols-1 lg: grid-cols-3 mt-4">
+          <div className=" grid gris-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4">
+            {/* cards go here */}
+            {/* card one */}
             <div className="p-4">
               <img src={profpic} alt="" />
               <div>
@@ -21,6 +23,7 @@ const LatestNews = () => {
                 <img src={bottombaner} alt="" />
               </div>
             </div>
+            {/* card two */}
             <div className="p-4">
               <img src={invite} alt="" />
               <div>
@@ -31,6 +34,7 @@ const LatestNews = () => {
                 <img src={bottombaner} alt="" />
               </div>
             </div>
+            {/* card three */}
             <div className="p-4">
               <img src={grouppic} alt="" />
               <div>
