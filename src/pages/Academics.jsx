@@ -25,7 +25,7 @@ const Academics = () => {
         <SideBar />
         <div className=" w-full lg:ml-6 p-1">
           {/* image goes here */}
-          <div className=" w-[100%] mt-4 h-[150px] bg-[url('/src/assets/amy-hirschi-uwpo02K55zw-unsplash.jpg')] bg-cover ">
+          <div className=" w-[100%] mt-4 h-[300px] bg-[url('/src/assets/pexels-godisable-jacob-226636-901964.jpg')] bg-cover ">
             <h2 className="text-white font-bold  w-[30px] mt-auto">
               ACADEMICS
             </h2>
@@ -184,7 +184,7 @@ const Academics = () => {
                   </div>
                   <div className="mt-4 ml-[1rem]">
                     <div className="flex text-[#0055A5] cursor-pointer">
-                      <div className="font-bold">FIND OUT MORE</div>
+                      <div    className="font-bold">FIND OUT MORE</div>
                       <IoArrowForwardOutline className="mt-1 ml-5 w-5 h-5  " />
                     </div>
                   </div>
